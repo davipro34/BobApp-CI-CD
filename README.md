@@ -2,7 +2,7 @@
 
 Clone project:
 
-> git clone XXXXX
+> git clone https://github.com/davipro34/BobApp-CI-CD.git
 
 ## Front-end 
 
@@ -26,7 +26,7 @@ Build the container:
 
 Start the container:
 
-> docker run -p 8080:8080 --name bobapp-front -d bobapp-front
+> docker run -p 80:80 --name bobapp-front -d bobapp-front
 
 ## Back-end
 

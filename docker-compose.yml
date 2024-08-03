@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  bobapp-back:
+    image: davipro/bobapp-back:latest
+    container_name: bobapp-back
+    ports:
+      - "8080:8080"
+
+  bobapp-front:
+    image: davipro/bobapp-front:latest
+    container_name: bobapp-front
+    ports:
+      - "80:80"
+    depends_on:
+      - bobapp-back
