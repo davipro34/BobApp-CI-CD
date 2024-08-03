@@ -5,7 +5,8 @@ URL du dépôt GitHub : https://github.com/davipro34/BobApp-CI-CD
 URL DockerHub front : https://hub.docker.com/repository/docker/davipro/bobapp-front/general
 URL DockerHub back : https://hub.docker.com/repository/docker/davipro/bobapp-back/general
 
-URL SonarCloud : https://sonarcloud.io/projects
+URL SonarCloud front : https://sonarcloud.io/project/overview?id=davipro_bobapp_front
+URL SonarCloud back : https://sonarcloud.io/project/overview?id=davipro_bobapp_back
 
 ## 1. Les étapes des GitHub Actions
 
